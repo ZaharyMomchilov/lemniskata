@@ -40,7 +40,8 @@ const fillBlueOptions = { fillColor: 'blue' }
 
 const ShowPoly = ({ mapContainer, polygons }) => {
   return polygons.map((poly, index) => {
-    return  <Circle key={index} center={poly} pathOptions={purpleOptions} radius={500000} />
+    return null
+    // return  <Circle key={index} center={poly} pathOptions={purpleOptions} radius={500000} />
   })
 }
 
